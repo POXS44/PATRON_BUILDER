@@ -1,22 +1,21 @@
 package org.poxs44.Builder;
 
-public class BarbacoaPizzaBuilder  extends PizzaBuilder  {
-
+public class CarbonaraPizzaBuilder  extends PizzaBuilder {
     @Override
     public void ponerNombre() {
-        pizza.setNombre("Barbacoa");
+        pizza.setNombre("Carbonara");
     }
     @Override
     public void crearMasa() {
-        pizza.setMasa("gorda");
+        pizza.setMasa("fina");
     }
     @Override
     public void crearSalsa() {
-        pizza.setSalsa("barbacoa");
+        pizza.setSalsa("carbonara");
     }
     @Override
     public void crearIngredientes() {
-        pizza.setIngredientes("mozzarella, ternera, cebolla, maíz");
+        pizza.setIngredientes("mozzarella, bacon, cebolla");
     }
 
 }
